@@ -23,7 +23,7 @@
     "dest": {
         "styles": "Resources/Public/Styles",
         "scripts": "Resources/Public/Scripts",
-        "images": "/_Resources/Static/Packages/M12.FoundationSite/Images",
+        "images": "/Resources/Images",
         "fonts": "Resources/Public/Fonts"
     },
     "watch": {

@@ -13,4 +13,3 @@ Run in your terminal
 Run in your terminal
 
     gulp watch
-
