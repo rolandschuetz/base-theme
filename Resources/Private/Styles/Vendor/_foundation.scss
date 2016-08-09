@@ -1,0 +1,37 @@
+//
+// Overrides and/or add-ons for Zurb Foundation
+//
+
+//
+// Orbit
+//
+.orbit-slides-container {
+	// Neos wraps IMG in FIGURE tag. Reset margin for it...
+	figure {
+		margin: 0;
+	}
+}
+
+//
+// Alert: last paragraph should have margin 0.
+// Weird, Foundation has it for Panel, but not for alert...
+//
+.alert-box > :last-child {
+	margin-bottom: 0;
+}
+
+//
+// Magellan
+//
+.magellan-container--top-bar {
+	padding: 0;
+}
+
+//
+// Generics
+//
+// Somehow IFRAME borders are not styled in Zurb Foundation and they give
+// examples with using 'frameborder="0"' attribute.
+iframe {
+	border: 0 none;
+}
